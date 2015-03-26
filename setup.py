@@ -10,9 +10,10 @@ PROJECT_NAME = 'seo'
 
 setup(
     name='django-seo-admin',
-    version='0.1',
+    version='0.2',
     packages=[
         PROJECT_NAME,
+        PROJECT_NAME+'.templatetags', 
     ],
     include_package_data=True,
     license='BSD License', 
