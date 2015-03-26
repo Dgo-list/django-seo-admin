@@ -16,15 +16,18 @@ Quick start
 1. Include the app 'seo' to INSTALLED_APPS in the settings.py
 		
 2. Apply migration with migrate for registry the model of django-seo-admin::
+
 	python manage.py migrate
 
-3. Sign in to Admin of Django and load record to the model 'Seo admins'.
-   
-	Fields are: 
-	1. Type: Type tag, for example: Meta and title.
-	2. Is_property: If tag contains property "property", else contains property "name"
-	3. Field: Value of property. For example, the property name contains value "keywords"
-	4. Content: Contains of property. For example, for keywords contains values "django, web, framework"
+3. Sign in to Admin of Django and load record to the model 'Seo admins'
+	
+Fields are
+----------
+
+Type: Type tag, for example: Meta and title.
+Is_property: If tag contains property "property", else contains property "name"
+Field: Value of property. For example, the property name contains value "keywords"
+Content: Contains of property. For example, for keywords contains values "django, web, framework"
 
 4. In the template::
 	
