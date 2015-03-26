@@ -19,15 +19,14 @@ Quick start
 
 	python manage.py migrate
 
-3. Sign in to Admin of Django and load record to the model 'Seo admins'
+3. Sign in to Admin of Django and load record to the model 'Seo admins'::
 	
-Fields are
-----------
+	Fields are:
 
-Type: Type tag, for example: Meta and title.
-Is_property: If tag contains property "property", else contains property "name"
-Field: Value of property. For example, the property name contains value "keywords"
-Content: Contains of property. For example, for keywords contains values "django, web, framework"
+	Type: Type tag, for example: Meta and title.
+	Is_property: If tag contains property "property", else contains property "name"
+	Field: Value of property. For example, the property name contains value "keywords"
+	Content: Contains of property. For example, for keywords contains values "django, web, framework"
 
 4. In the template::
 	
