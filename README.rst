@@ -1,5 +1,3 @@
-django-seo-admin/README.rst
-================
 Django SEO Admin
 ================
 
