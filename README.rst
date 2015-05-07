@@ -32,7 +32,7 @@ Quick start
 
 Example
 
-.. image:: https://github.com/mapeveri/django-seo-admin/img/example.png
+.. image:: https://github.com/mapeveri/django-seo-admin/blob/master/img/example.png
 
 4. In the template::
 	
