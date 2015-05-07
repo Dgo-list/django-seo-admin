@@ -11,7 +11,11 @@ pip install django-seo-admin
 Quick start
 -----------
 
-1. Include the app 'seo' to INSTALLED_APPS in the settings.py
+1. Include the app 'seo' to INSTALLED_APPS in the settings.py::
+
+	INSTALLED_APPS = (
+		'seo',
+	)
 		
 2. Apply migration with migrate for registry the model of django-seo-admin::
 
@@ -21,10 +25,14 @@ Quick start
 	
 	Fields are:
 
-	Type: Type tag, for example: Meta and title.
-	Is_property: If tag contains property "property", else contains property "name"
+	Type: Meta, title, etc.
+	Is_property: If tag contains property "property", otherwise contains property "name"
 	Field: Value of property. For example, the property name contains value "keywords"
 	Content: Contains of property. For example, for keywords contains values "django, web, framework"
+
+Example
+
+.. image:: https://github.com/mapeveri/django-seo-admin/img/example.png
 
 4. In the template::
 	
