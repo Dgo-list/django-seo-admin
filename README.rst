@@ -6,7 +6,9 @@ Django SEO Admin is the app for apply SEO on your websites with Django.
 Installing
 ----------
 
-pip install django-seo-admin
+Via pip::
+
+	pip install django-seo-admin
 
 Quick start
 -----------
